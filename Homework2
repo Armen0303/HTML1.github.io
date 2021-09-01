@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="styles.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+   <meta charset="utf-8">
+   <meta name="keywords" content="HTML, html Cheat Sheet  ">
+</head>
+<body>
+  
+  <div>
+  <h1>HTML Cheat Sheet</h1>
+  <h2 class="text">Table Tags</h2>
+  </div>
+  <table class="preface">
+    <thead >
+    <tr>
+      <th scope="col" id="header">Tag</th>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+    </tr>
+    </thead>
+    <tbody> 
+      <tr>
+        <td scope="row">&ltsup&gt</td>
+        <td scope="row" >Superscript</td>
+        <td scope="row" ><p>The &ltsup&gt element is used 
+to contain characters that 
+should be superscript such 
+as the suffixes of dates or 
+mathematical concepts like 
+raising a number to a power such 
+as 2<sup>2</sup></p>
+</td>
+      </tr>
+       <tr>
+        <td>&ltsub&gt</td>
+        <td>Subscrip</td>
+        <td><p>The &ltsub&gt element is used to 
+contain characters that should 
+be subscript. It is commonly 
+used with foot notes or chemical 
+formulas such as H<sub>
+2</sub>O</p></td>
+      </tr>
+       <tr>
+        <td>&ltbr/&gt</td>
+        <td>Breaks</td>
+        <td>As you have already seen, the 
+browser will automatically show 
+each new paragraph or heading 
+on a new line. But if you wanted 
+to add a line break inside the 
+middle of a paragraph you can 
+use the line break tag &ltbr/&gt</td>
+      </tr>
+       <tr>
+        <td>&lthr/&gt</td>
+        <td>Horizontal Rules</td>
+        <td>To create a break between 
+themes — such as a change of 
+topic in a book or a new scene 
+in a play — you can add a 
+horizontal rule between sections 
+using the &lthr/&gt tag.</td>
+      </tr>
+       <tr>
+        <td>q</td>
+        <td>Quotations</td>
+        <td>The &ltq&gt element is used for 
+shorter quotes that sit within 
+a paragraph. Browsers are 
+supposed to put quotes around 
+the &ltq&gt element, however 
+Internet Explorer does not — 
+therefore many people avoid 
+using the &ltq&gt element.</td>
+      </tr>
+       <tr>
+        <td>&ltabbr&gt</td>
+        <td>Abbreviations & Acronyms</td>
+        <td>If you use an abbreviation or 
+an acronym, then the &ltabbr&gt
+element can be used. A title
+attribute on the opening tag is 
+used to specify the full term.</td>
+      </tr>
+       <tr>
+        <td>&ltaddress&gt</td>
+        <td>Author Details</td>
+        <td>The &ltaddress&gt element has 
+quite a specific use: to contain 
+contact details for the author of 
+the page.
+It can contain a physical address, 
+but it does not have to. For 
+example, it may also contain a 
+phone number or email address <span class="exemple">&ltaddress&gt
+&gtp&lt href="mailto:homer@example.org"&gt
+ homer@example.org&gt/a&lt&gt/p&lt
+&ltp&gt742 Evergreen Terrace, Springfield.&gt/p&lt
+&gt/address&lt</span></td>
+      </tr>
+       <tr>
+        <td>&ltins&gt&ltdel&gt</td>
+        <td></td>
+        <td>The &ltins&gt element can be used 
+to show content that has been 
+inserted into a document, while 
+the &ltdel&gt element can show text 
+that has been deleted from it.</td>
+      </tr>
+       <tr>
+        <td>&ltol&gt &ltli&gt</td>
+        <td>Ordered Lists</td>
+        <td>Each item in the list is placed 
+between an opening &ltli&gt tag 
+and a closing &ltli&gt tag. (The li
+stands for list item.)</td>
+      </tr>
+       <tr>
+        <td>&ltul&gt &ltli&gt</td>
+        <td>Unordered Lists</td>
+        <td>Each item in the list is placed 
+between an opening &gtli&lt tag 
+and a closing &gtli&lt tag. (The li
+stands for list item.</td>
+      </tr>
+       <tr>
+        <td>&ltdl&gt &ltdt&gt &ltdd&gt</td>
+        <td>Definition Lists</td>
+        <td>The definition list is created with 
+the &ltdl&gt element and usually 
+consists of a series of terms and 
+their definitions.
+Inside the &ltdl&gt element you will 
+usually see pairs of &ltdt&gt and 
+&ltdd&gt elements.</td>
+      </tr>
+    </tbody>
+  </table>
+  </body>
+  </html>
+  
+   {
+  box-sizing: border-box;
+}
+
+
+.text{
+   text-align:center;
+   color:#808080;
+   font-family: 'Cabin', Sans-Serif;
+   font-size: 16px;
+}
+body {
+  background-image:url("https://images.unsplash.com/photo-1630183477044-f246686aede0?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5NHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
+h1,h2{
+  font-family:'Roboto Condensed', Sans-Serif;
+   font-size:35px;
+   letter-spacing: 2px;
+   border: 5px solid #808080;
+   color:#808080;
+   padding: 10px 15px;
+   margin: 10px 20px;
+   text-align:center;
+}
+
+.preface th,td{
+   padding: 10px;
+  margin: 0 auto;
+  border: 5px solid #ffffff;
+  box-shadow: 10px 5px 5px #000000;
+  width:200px;
+  overflow:auto;
+ width: max-content;
+ height:max-content;
+ width: min-content;
+ height:min-content;
+ 
+}
+
+th,td{
+  font-family: 'Cabin', Sans-Serif;
+  font-size: 16px;
+}
+span.exemple{
+font-weight: bold;
+}
